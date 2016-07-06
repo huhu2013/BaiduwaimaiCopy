@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Baiduwaimai</string>
+    <string name="home">首页</string>
+    <string name="dingdan">订单</string>
+    <string name="mine">我的</string>
+    <string name="dingdan_page">您还没有登录，请登录后查看订单</string>
+    <string name="login">登录/注册</string>
+    <string name="mine_phone">客服 400-011-7777</string>
+    <string name="searchbox_text">搜索商户或者商品名称</string>
+    <string name="canyin">餐饮</string>
+    <string name="caoshigou">超市购</string>
+    <string name="shuiguo">水果生鲜</string>
+    <string name="xiawucha">下午茶</string>
+    <string name="tuhao">土豪特供</string>
+    <string name="xindian">新店</string>
+    <string name="peisong">百度配送</string>
+    <string name="songyao">网上送药</string>
+    <string name="qidai">敬请期待</string>
+    <string name="home_list">全部商家</string>
+    <string name="yishou_text">已售</string>
+    <string name="fen_texxt">份</string>
+    <string name="qisong_text">起送¥</string>
+    <string name="peisong_text">配送¥</string>
+    <string name="pingjun_text">平均</string>
+    <string name="fenzhong_text">分钟</string>
+    <string name="homeFoot">更多商户正在入驻，敬请期待！</string>
+    <string name="openLoginText">打开登录/注册页</string>
+    <string name="openUtilText">打开工具页</string>
+</resources>

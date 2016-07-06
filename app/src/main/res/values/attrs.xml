@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageTextButton">
+        <attr name="backgroundNomal" format="reference"></attr>
+        <attr name="backgroundPressed" format="reference"></attr>
+        <attr name="imageText" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="FiveStarView">
+        <attr name="brightStarNum" format="integer"></attr>
+        <attr name="selfStarNum" format="integer"></attr>
+        <attr name="dimStarNum" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ThreeCircleView">
+        <attr name="isListJian" format="boolean"></attr>
+        <attr name="isListQuan" format="boolean"></attr>
+        <attr name="isListMian" format="boolean"></attr>
+    </declare-styleable>
+</resources>

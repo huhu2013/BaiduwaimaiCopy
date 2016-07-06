@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSelected">#FFFF2E4C</color>
+    <color name="colorUnselected">#FF9A9A9A</color>
+    <color name="colorTop">#FFFD3351</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorSeemGray">#FFE8E7ED</color>
+    <color name="colorSeemRed">#FFFF2D4B</color>
+    <color name="colorSearchBoxText">#FFB0C6CE</color>
+    <color name="colorHomeSearchText">#FF0E0E0E</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorGrey">#FF959595</color>
+    <color name="colorLightGrey">#FFEEEEEE</color>
+</resources>

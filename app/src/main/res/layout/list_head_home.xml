@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="@color/colorSeemGray">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_canyin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_canyin"
+                    app:backgroundPressed="@drawable/icon_canyin_pressed"
+                    app:imageText="@string/canyin"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_chaoshigou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_gouwuche"
+                    app:backgroundPressed="@drawable/icon_gouwuche_pressed"
+                    app:imageText="@string/caoshigou"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_shuiguo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_shuiguo"
+                    app:backgroundPressed="@drawable/icon_shuiguo_pressed"
+                    app:imageText="@string/shuiguo"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_xiawucha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_chayin"
+                    app:backgroundPressed="@drawable/icon_chayin_pressed"
+                    app:imageText="@string/xiawucha"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_tuhao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_tuhao"
+                    app:backgroundPressed="@drawable/icon_tuhao_pressed"
+                    app:imageText="@string/tuhao"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_xindian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_xindian"
+                    app:backgroundPressed="@drawable/icon_xindian_pressed"
+                    app:imageText="@string/xindian"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_peisong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_peisong"
+                    app:backgroundPressed="@drawable/icon_peisong_pressed"
+                    app:imageText="@string/peisong"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <com.jikexueyuan.baiduwaimaicopy.ImageTextButton
+                    android:id="@+id/text_image_songyao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundNomal="@drawable/icon_songyao"
+                    app:backgroundPressed="@drawable/icon_songyao_pressed"
+                    app:imageText="@string/songyao"></com.jikexueyuan.baiduwaimaicopy.ImageTextButton>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorSeemGray"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/home_list" />
+
+    </LinearLayout>
+</LinearLayout>
